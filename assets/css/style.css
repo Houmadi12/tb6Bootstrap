@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Redressed&display=swap');
+
+.open {
+    font-family: 'Open Sans','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.amatic {
+    font-family: 'Amatic SC',sans-serif;
+}
+
+.redressed {
+    font-family: 'Redressed',cursive;
+}
+
+.inter {
+    font-family: 'Inter',sans-serif;
+}
+
+.text-bg-red {
+    background-color: #ce1212;
+}
+
+.inter-size {
+    font-size: 28px;
+    font-weight: 700;
+    color: #000;
+    margin: 0;
+}
+
+.merriweather {
+    font-family: 'Merriweather',sans-serif;
+}
+.cc-navbar0 {
+    background: #008374 !important;
+    font-family: 'Merriweather',sans-serif;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    z-index: 100;
+}
+
+.cc-navbar {
+    margin-top: 50px;
+    background: #008374;
+    font-family: 'Merriweather',sans-serif;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    z-index: 99;
+}
+
+.cc-navbar .nav-link,
+.cc-navbar .active {
+    padding: 0 3px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.6) !important;
+    border-bottom: 2px solid transparent;
+    transition:padding-bottom 0.4s ease-in-out, border-color 0.3s ease; 
+}
+
+
+.cc-navbar .nav-link:hover,
+.cc-navbar .active {
+    color: #fff !important;
+    padding-bottom: 5px;
+    border-bottom-color: rgba(206, 18, 18, 0.8);
+}
+
+.card-section1 {
+    background: transparent;
+    height: 600px;
+}
+
+.banner {
+    background: #008374;
+    height: 650px;
+}
+
+.card-icon {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+.card-icon .fa-regular {
+    font-size: 32px;
+}
+
+.card-icon span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card-title{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.card-text {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+/* Css Section 2 */
+.section1-header h2{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #7f7f90;
+    text-transform: uppercase;    ;
+}
+
+.section1-header p {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;   
+}
+
+.card-left {
+    background: url("../images/about.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 733px;
+}
+
+.card-body p:nth-child(1) {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.card-body ul li {
+    list-style: none;
+    font-size: 0.9rem;
+    color: #212529;
+}
+
+.card-body ul li ion-icon {
+    color: rgba(206, 18, 18, 0.8);
+    font-size: 20px;
+}
+
+.card-body p:nth-child(3) {
+    color: #212529;
+    font-size: 0.9rem;
+}
+
+.btn-order {
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 14px 40px;
+    border-radius: 50px;
+    transition: 0.3s;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.btn-order:hover,
+.btn-order:active {
+    color: #fff;
+    border: 1px solid white;
+    background-color: #008374;
+}
+
+.section2 {
+    background: #eee;
+    height: 600px;
+}
+
+.btn-order1 {
+    margin: 10px 30%;
+    padding: 8px 20px;
+    font-size: 14px;
+    display: block;
+    width: 35%;
+    text-decoration: none;
+    color: #fff;
+    border-color: 1px solid white;
+    background: rgba(245, 162, 162, 0.8);
+    border-radius: 50px !important;
+    transition: 0.3s;
+}
+
+.title-card {
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+
+.text-card {
+    color: white;
+    font-size: 1rem;
+    font-weight: 400    ;
+}
